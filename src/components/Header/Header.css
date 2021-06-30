@@ -1,0 +1,34 @@
+
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 0.836) 1%, transparent 99%);
+    transition: all ease 500ms;
+}
+header.black {
+    background-color: #111;
+}
+
+.header--logo {
+    height: 30px;
+}
+
+.header--logo img{
+    height: 100%;
+}
+
+.header--user {
+    height: 30px;
+}
+.header--user img{
+    height: 100%;
+    border-radius: 3px;
+}
